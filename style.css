@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+header {
+  width: 100%;
+  padding: 20px 10%;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ffe600;
+}
+.hero {
+  padding: 100px 10%;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1512820790803-83ca734da794")
+    center/cover no-repeat;
+  color: #fff;
+}
+.hero h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+.btn {
+  padding: 15px 35px;
+  background: #ff7e5f;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #feb47b;
+}
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+  color: #333;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px 10%;
+}
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+.card-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.card-content p {
+  font-size: 1.1rem;
+  color: #666;
+}
+.sell-form {
+  padding: 50px 10%;
+  background: #fff5ee;
+}
+.sell-form form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.sell-form input,
+.sell-form button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.sell-form button {
+  background: #ff7e5f;
+  color: white;
+  border: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.sell-form button:hover {
+  background: #feb47b;
+}
+.about,
+.testimonials {
+  background: #fff;
+  padding: 60px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.about img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+}
+.about-text,
+.testimonials-text {
+  max-width: 600px;
+}
+.about-text h2,
+.testimonials-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.about-text p,
+.testimonials-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.testimonial {
+  background: #f5f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 10%;
+  margin-top: 50px;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShelfSwap - Buy & Sell Books</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>ShelfSwap</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#buy">Buy</a>
+    <a href="#sell">Sell</a>
+    <a href="#about">About</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Discover, Buy & Sell Books Easily</h2>
+  <p>Find rare gems and everyday favorites at unbeatable prices!</p>
+  <a href="#buy"><button class="btn">Explore Books</button></a>
+</section>
+
+<h2 class="section-title" id="buy">Books Available</h2>
+<section class="cards">
+
+    
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/51-nXsSRfZL._SY425_.jpg" alt="Atomic Habits">
+    <div class="card-content">
+      <h3>Atomic Habits</h3>
+      <p>James Clear - Rs. 350</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71din4TLubL._UF1000,1000_QL80_.jpg" alt="Deep Work">
+    <div class="card-content">
+      <h3>Deep Work</h3>
+      <p>Cal Newport - Rs. 400</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/81ioPZFMeUL._UF1000,1000_QL80_.jpg" alt="The Alchemist">
+    <div class="card-content">
+      <h3>The Alchemist</h3>
+      <p>Paulo Coelho - Rs. 300</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/81bsw6fnUiL._SY425_.jpg" alt="Rich Dad Poor Dad">
+    <div class="card-content">
+      <h3>Rich Dad Poor Dad</h3>
+      <p>Robert Kiyosaki - Rs. 250</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71M1P287BjL.jpg" alt="Start With Why">
+    <div class="card-content">
+      <h3>Start With Why</h3>
+      <p>Simon Sinek - Rs. 400</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71f6DceqZAL.jpg" alt="Thinking, Fast and Slow">
+    <div class="card-content">
+      <h3>Thinking, Fast and Slow</h3>
+      <p>Daniel Kahneman - Rs. 500</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/713jIoMO3UL.jpg" alt="Sapiens">
+    <div class="card-content">
+      <h3>Sapiens</h3>
+      <p>Yuval Noah Harari - Rs. 450</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71tbalAHYCL._SY425_.jpg" alt="Ikigai">
+    <div class="card-content">
+      <h3>Ikigai</h3>
+      <p>Héctor García - Rs. 300</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.taleem360.com/uploads/2024/06/29/g0ff3h_258x387.webp" alt="The Power of Habit">
+    <div class="card-content">
+      <h3>The Power of Habit</h3>
+      <p>Charles Duhigg - Rs. 320</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71zytzrg6lL._SY425_.jpg" alt="The 5 AM Club">
+    <div class="card-content">
+      <h3>The 5 AM Club</h3>
+      <p>Robin Sharma - Rs. 380</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1536184191i/41721428.jpg" alt="Can't Hurt Me">
+    <div class="card-content">
+      <h3>Can't Hurt Me</h3>
+      <p>David Goggins - Rs. 450</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71QKQ9mwV7L._SY425_.jpg" alt="The Subtle Art of Not Giving a F*ck">
+    <div class="card-content">
+      <h3>The Subtle Art of Not Giving a F*ck</h3>
+      <p>Mark Manson - Rs. 350</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/61PDzIhVLnL._AC_UF1000,1000_QL80_.jpg" alt="Zero to One">
+    <div class="card-content">
+      <h3>Zero to One</h3>
+      <p>Peter Thiel - Rs. 420</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71LYrLks5-L._AC_UF1000,1000_QL80_.jpg" alt="Crushing It!">
+    <div class="card-content">
+      <h3>Crushing It!</h3>
+      <p>Gary Vaynerchuk - Rs. 370</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/book/q/i/d/good-vibes-good-life-original-imah4mazmcsuseez.jpeg?q=20&crop=false" alt="Good Vibes, Good Life">
+    <div class="card-content">
+      <h3>Good Vibes, Good Life</h3>
+      <p>Vex King - Rs. 310</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/81Dky+tD+pL.jpg" alt="The Psychology of Money">
+    <div class="card-content">
+      <h3>The Psychology of Money</h3>
+      <p>Morgan Housel - Rs. 360</p>
+    </div>
+  </div>
+</section>
+
+<h2 class="section-title" id="sell">Sell Your Book</h2>
+<section class="sell-form">
+  <form>
+    <input type="text" placeholder="Book Name" required>
+    <input type="text" placeholder="Author Name" required>
+    <input type="number" placeholder="Price (in Rs.)" required>
+    <input type="url" placeholder="Image URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section class="about" id="about">
+  <img src="https://images.squarespace-cdn.com/content/v1/5e9497bdea41e51dc7224f9a/1590249851750-073EHZSFI0EMI6HVPM6V/The+Random+Bundle.jpg" alt="About Us">
+  <div class="about-text">
+    <h2>About ShelfSwap</h2>
+    <p>At ShelfSwap, we believe in the power of books to change lives. Our mission is to make reading accessible, affordable, and exciting for everyone. ShelfSwap is more than just an online marketplace — it’s a community built by book lovers, for book lovers.
+
+      Whether you're looking to buy your next great read, sell pre-loved books, or discover hidden literary gems, ShelfSwap is your go-to platform. We connect readers from all walks of life, making it easy to swap stories, ideas, and inspiration.
+      
+      Our platform is designed to be simple, secure, and user-friendly. Every transaction helps books find a new home, reduces waste, and keeps the spirit of reading alive. From rare finds to everyday favorites, ShelfSwap offers a diverse and ever-growing collection to explore.
+      
+      Join us on our journey to create a world where every book finds a reader and every reader finds their next adventure.
+      
+      Welcome to ShelfSwap — Where Stories Live On.
+      
+      </p>
+  </div>
+</section>
+
+<h2 class="section-title" id="testimonials">What Our Users Say</h2>
+<section class="testimonials">
+  <div class="testimonial">
+    <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User 1">
+    <div class="testimonials-text">
+      <p>"I love how easy it is to sell and buy books on ShelfSwap. It's like a book lover's paradise!" - Rajesh</p>
+    </div>
+  </div>
+  <div class="testimonial">
+    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User 2">
+    <div class="testimonials-text">
+      <p>"Found rare books I was searching for. Highly recommended!" - Priya</p>
+    </div>
+  </div>
+  <div class="testimonial">
+    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User 3">
+    <div class="testimonials-text">
+      <p>"Fast, smooth, and reliable platform for book enthusiasts!" - Ankit</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>Contact Us: support@shelveswap.com | Follow us on Instagram @shelveswap</p>
+  <p>Made with ❤️ by Ananya Pandey</p>
+</footer>
+
+
+</body>
+</html>
