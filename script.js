@@ -1,4 +1,3 @@
-// Animate header sliding down
 gsap.from("header", {
     duration: 1,
     y: -100,
@@ -6,7 +5,6 @@ gsap.from("header", {
     ease: "bounce.out"
   });
   
-  // Hero Section animation
   gsap.from(".hero h2", {
     duration: 1,
     x: -100,
@@ -26,7 +24,6 @@ gsap.from("header", {
     delay: 1
   });
   
-  // Book Cards animation on scroll
   gsap.from(".card", {
     scrollTrigger: {
       trigger: ".cards",
@@ -39,7 +36,6 @@ gsap.from("header", {
     stagger: 0.2
   });
   
-  // Sell Form animation on scroll
   gsap.from(".sell-form form", {
     scrollTrigger: {
       trigger: ".sell-form",
@@ -51,7 +47,6 @@ gsap.from("header", {
     duration: 1
   });
   
-  // About Section: Image and Text coming from opposite sides
   gsap.from(".about img", {
     scrollTrigger: {
       trigger: ".about",
@@ -74,7 +69,6 @@ gsap.from("header", {
     duration: 1
   });
   
-  // Testimonials cards stagger animation
   gsap.from(".testimonial", {
     scrollTrigger: {
       trigger: ".testimonials",
@@ -87,7 +81,6 @@ gsap.from("header", {
     stagger: 0.3
   });
   
-  // Footer fade in
   gsap.from("footer", {
     scrollTrigger: {
       trigger: "footer",
